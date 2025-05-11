@@ -19,13 +19,12 @@ export default function Header() {
       <img src={Cover} alt="مطعمنا" className="cover" />
       <img src={Logo} alt="مطعمنا" className="logo" />
       <div className="informations">
-        <h2
-          onClick={() => {
-            setShow(show === "none" ? "flex" : "none");
-          }}
+        <a
+          href="https://www.waze.com/live-map/meeting?token=jnbEUiAqqkbOHm2lHA-sd&locale=ar&env=il&utm_campaign=share_drive&utm_source=waze_app&utm_medium=undefined"
+          target="_blank"
         >
           <img src={waze} width={"20px"} alt="" /> موقعنا
-        </h2>
+        </a>
         <h2
           onClick={() => {
             setShow(show === "none" ? "flex" : "none");

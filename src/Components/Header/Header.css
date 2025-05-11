@@ -49,6 +49,18 @@
   background-color: #ec1c25;
   color: white;
   font-family: 'Kufam', sans-serif;
+}
+
+.informations a{
+  font-size: medium;
+  border-radius: 50px;
+  border: 1px solid #ec1c25;
+  padding: 8px;
+  background-color: #ec1c25;
+  color: white;
+  font-family: 'Kufam', sans-serif;
+text-decoration: none;
+font-weight: 900;
 
 }
 
