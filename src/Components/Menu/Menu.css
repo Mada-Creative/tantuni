@@ -1,0 +1,60 @@
+.menu {
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* تصميم عنصر الطعام */
+  .menu-item {
+    background: rgb(20, 97, 60);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* تحسين مظهر الصورة */
+  .menu-item img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* تنسيق العنوان */
+  .menu-item h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: white;
+  font-family: 'Kufam', sans-serif;
+
+  }
+  
+  /* تنسيق السعر */
+  .menu-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(241, 167, 80);
+  font-family: 'Kufam', sans-serif;
+
+    margin: 0;
+  }
+  

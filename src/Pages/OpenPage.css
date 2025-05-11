@@ -1,0 +1,113 @@
+/* Define keyframes for the animation */
+@keyframes upDownAnimation {
+    0%, 100% {
+      transform: translateY(0); /* Initial and final position */
+    }
+    50% {
+      transform: translateY(-20px); /* Midpoint position, adjust the value as needed */
+    }
+  }
+  /* _______________________________________OpenAnimationDiv________________________________________ */
+  .AnimationPageDiv
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .OpenAnimationDiv
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+  }
+  @keyframes Fork {
+    0%, 50% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    25%, 75% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes Pizza {
+    0%, 50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    25%, 75% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+  .OpenAnimationDiv img
+  {
+    width: 15%;
+    margin: 10px; /* Adjust margin as needed */
+  }
+  #Fork
+  {
+    animation: Fork 2s linear infinite;
+    animation-delay: 0s, 5s, 2.5s; /* Adjust the delays for synchronization */
+  }
+  #Pizza
+  {
+    animation: Pizza 2s linear infinite;
+    animation-delay: 0s, 5s, 2.5s; /* Adjust the delays for synchronization */
+  }
+  #Salad
+  {
+    animation: Fork 2s linear infinite;
+    animation-delay: 0s, 5s, 2.5s; /* Adjust the delays for synchronization */
+  }
+
+  
+
+
+
+  .mada-footer {
+    background-color: #ffffff; /* خلفية متناسقة مع الصفحة */
+
+    color: #031e40; /* النص باللون الرسمي */
+    padding: 25px 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #eaeaea;
+    margin-top: 50%;
+    position: relative;
+  }
+  
+  .mada-footer p {
+    margin: 0;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  
+  .mada-footer .by {
+    color: #555;
+  }
+  
+  .mada-footer .mada-brand {
+    color: #031e40;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .mada-footer .mada-brand:hover {
+    color: #031e40;
+    cursor: pointer;
+  }
+  
+  .mada-brand sup {
+    font-size: 10px;
+    color: #999;
+    margin-left: 2px;
+  }
+  
+  
