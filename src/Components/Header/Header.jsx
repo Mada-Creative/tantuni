@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { FaHamburger } from "react-icons/fa";
-import Logo from "../../images-well-done/logo.png";
-import Cover from "../../images-well-done/Cover.jpeg";
+import Logo from "../../images-tantuni/logo.JPG";
+import Cover from "../../images-tantuni/cover.jpg";
+import waze from "../../icons/waze.png";
 
 export default function Header() {
   const [show, setShow] = useState(false);
@@ -18,6 +19,13 @@ export default function Header() {
       <img src={Cover} alt="مطعمنا" className="cover" />
       <img src={Logo} alt="مطعمنا" className="logo" />
       <div className="informations">
+        <h2
+          onClick={() => {
+            setShow(show === "none" ? "flex" : "none");
+          }}
+        >
+          <img src={waze} width={"20px"} alt="" /> موقعنا
+        </h2>
         <h2
           onClick={() => {
             setShow(show === "none" ? "flex" : "none");

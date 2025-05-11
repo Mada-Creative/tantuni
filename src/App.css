@@ -4,6 +4,51 @@
 
 }
 
+
+
+.mada-footer {
+  background-color: #ffffff; /* خلفية متناسقة مع الصفحة */
+
+  color: #031e40; /* النص باللون الرسمي */
+  padding: 25px 15px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #eaeaea;
+  margin-top: 50%;
+  position: relative;
+}
+
+.mada-footer p {
+  margin: 0;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.mada-footer .by {
+  color: #555;
+}
+
+.mada-footer .mada-brand {
+  color: #031e40;
+  font-weight: 600;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.mada-footer .mada-brand:hover {
+  color: #031e40;
+  cursor: pointer;
+}
+
+.mada-brand sup {
+  font-size: 10px;
+  color: #999;
+  margin-left: 2px;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

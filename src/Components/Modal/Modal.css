@@ -19,6 +19,8 @@
     width: 80%;
     max-width: 400px;
     position: relative;
+  font-family: 'Kufam', sans-serif;
+
   }
   
   .close-button {
@@ -29,6 +31,7 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
+    color: #ec1c25;
   }
   
   .modal-image {
@@ -40,6 +43,8 @@
   
   .price {
     font-weight: bold;
-    color: #ff6600;
+    color: black;
+  font-family: 'Kufam', sans-serif;
+
   }
   

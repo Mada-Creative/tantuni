@@ -10,10 +10,10 @@
   
   /* تصميم عنصر الطعام */
   .menu-item {
-    background: rgb(20, 97, 60);
+    background: white;
     border-radius: 10px;
+    border: 2px solid black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     cursor: pointer;
     overflow: hidden;
@@ -31,7 +31,11 @@
   .menu-item img {
     width: 100%;
     border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
     object-fit: cover;
+    border-bottom: 2px solid black;
     transition: transform 0.3s ease-in-out;
   }
   
@@ -43,7 +47,7 @@
   .menu-item h3 {
     font-size: 18px;
     margin: 10px 0 5px;
-    color: white;
+    color: black;
   font-family: 'Kufam', sans-serif;
 
   }
@@ -52,9 +56,8 @@
   .menu-item p {
     font-size: 16px;
     font-weight: bold;
-    color: rgb(241, 167, 80);
-  font-family: 'Kufam', sans-serif;
+    color: black;
+    font-family: 'Kufam', sans-serif;
 
-    margin: 0;
   }
   

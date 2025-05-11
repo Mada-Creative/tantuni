@@ -12,6 +12,14 @@ export default function HomePage() {
       <Slider />
       <Menu />
       <Modal />
+      <footer className="mada-footer">
+        <p>
+          <span className="by">Designed & Developed by</span>{" "}
+          <span className="mada-brand">
+            Mada Creative<sup>®</sup>
+          </span>
+        </p>
+      </footer>
     </div>
   );
 }

@@ -14,7 +14,9 @@
   height: 200px;
   object-fit: cover;
   display: block;
-  border-bottom: rgb(20, 97, 60) 5px solid;
+  border-bottom: #fdbb05 7px solid;
+  border-top: #fdbb05 7px solid;
+
 }
 
 /* اللوجو: دائري، بنص الكفر من تحت */
@@ -24,9 +26,9 @@
   left: 50%;
   transform: translateX(-50%);
   width: 170px;
-  height: 148px;
+  height: 170px;
   border-radius: 50%;
-  border: 5px solid rgb(20, 97, 60);
+  border: 7px solid #fdbb05;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   background-color: white;
   z-index: 2;
@@ -42,9 +44,9 @@
 .informations h2 {
   font-size: medium;
   border-radius: 50px;
-  border: 1px solid rgb(20, 97, 60);
+  border: 1px solid #ec1c25;
   padding: 8px;
-  background-color: rgb(20, 97, 60);
+  background-color: #ec1c25;
   color: white;
   font-family: 'Kufam', sans-serif;
 
@@ -53,11 +55,13 @@
 .work-days {
   width: 90%;
   margin-top: 10px;
-  background-color: #ffffff;
+  background-color: #ec1c25;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 15px;
   transition: all 0.3s ease-in-out;
+  font-family: 'Kufam', sans-serif;
+
   text-align: right;
   direction: rtl;
 }
@@ -66,6 +70,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  font-family: 'Kufam', sans-serif;
+
 }
 
 .work-days li {
@@ -73,6 +79,8 @@
   border-bottom: 1px solid #eee;
   font-size: 16px;
   color: #333;
+  font-family: 'Kufam', sans-serif;
+
 }
 
 .work-days li:last-child {
@@ -119,6 +127,8 @@
   margin-bottom: 15px;
   color: #333;
   text-align: center;
+  font-family: 'Kufam', sans-serif;
+
 }
 
 .work-days-popup ul {
@@ -132,6 +142,8 @@
   border-bottom: 1px solid #eee;
   font-size: 16px;
   color: #333;
+  font-family: 'Kufam', sans-serif;
+
 }
 
 .work-days-popup li:last-child {

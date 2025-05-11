@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import food from "../icons/food.png";
-import juice from "../icons/juice.png";
-import salads from "../icons/salads.png";
-import Logo from "../images-well-done/logo.png";
+import food from "../icons/وجبات.png";
+import juice from "../icons/مقبلات.png";
+import salads from "../icons/سلطات.png";
+import Logo from "../images-tantuni/logo.JPG";
 import "./OpenPage.css";
 
 export default function ThankYouPage() {
@@ -12,7 +12,7 @@ export default function ThankYouPage() {
   useEffect(() => {
     setTimeout(() => {
       nav("/Menu");
-    }, 6000);
+    }, 4000);
   }, []);
 
   return (
@@ -22,12 +22,22 @@ export default function ThankYouPage() {
         style={{
           backgroundColor: "transparent",
           display: "flex",
+          height: "300px",
           flexDirection: "row",
           justifyContent: "center",
           alignItems: "center",
         }}
       >
-        <img width={"70%"} src={Logo} alt="Logo" />
+        <img
+          width={"70%"}
+          style={{
+            border: "3px solid black",
+            borderRadius: "50%",
+            animation: "openBig ease-in-out 3s ",
+          }}
+          src={Logo}
+          alt="Logo"
+        />
       </header>
       <div className="OpenAnimationDiv">
         <img id="Fork" src={juice} alt="juice" />
